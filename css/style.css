@@ -70,6 +70,15 @@ footer {
 	color: white;
 	}
 
+#stopka {
+  background-color: #f23729;
+  border: 1px;
+  color: white;
+  font-size: 11px;
+  border-radius: 10px;
+  font-family: 'Baloo Thambi 2', cursive;
+}
+
 h4,h3 {
 	font-size: 20px;
 	}
@@ -88,9 +97,16 @@ input,select {
 }
 
 #zegarek {
+	margin-left: auto;
+    margin-right: auto;
 	font-size:100px;
 	color: black;
 	text-align: center;
+	background-color: white;
+	border: 2px solid #f52211;
+	border-radius: 80%;
+	padding: 20px;
+	width: 400px;
 	
 }
 
