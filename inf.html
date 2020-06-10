@@ -14,17 +14,25 @@
     <title>Lab5</title>
   </head>
   <body>
-  <nav class="navbar navbar-default fixed-top">
-      <div class="float-left">
-      <div class="navbar-header">
-         <a class="navbar-brand" href="index.html"><img class="rounded float-right" src="pict/logo.jpg" alt="logo"></a>
-        </div>
-    </div id="list">
-    <a class="btn btn-primary" href="index.html#main-page" title="Pierwsz sekcja">Pierwsza sekcja<span id ="icon" class="glyphicon glyphicon-eye-open"></span> </a>
-    <a class="btn btn-primary" href="index.html#second-page" title="Druga sekcja">Druga sekcja<span id="icon" class="glyphicon glyphicon-arrow-down"></span> </a>
-    <a class="btn btn-primary" href="#=inf.html" title="Informacje">Informacje</a>
-    <a class="btn btn-primary" href="contact.html" title="Kontakt">Kontakt</a>
-    </nav>
+<nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+    <a class="navbar-brand" href="index.html"><img src="pict/logo.jpg" height="70px" width="100px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+        <ul id="navText" class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html#main-page">Pierwsza sekcja<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Kontakt</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html#gal">Galeria<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>   
+    </div>
+</nav>
 	
 	<section id="main-page" class="jumbotron">
 		<div class="container">
