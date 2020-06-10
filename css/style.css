@@ -1,19 +1,18 @@
 body {
 	font-size:18px;
-	color: black;
-	background:#ff6666;
+	background: black;
 	font-family: 'Baloo Thambi 2', cursive;
 	margin: 0px;
 	}
 	
 h1, h2, h5, h6 {
 	font-size:34px;
-	color: #ff0000;
+	color: yellow;
 	font-family: 'PT Serif', serif;
 	}
 
 footer {
-  background-color: #ff3333;
+  background-color: #0A0A0A;
 }
 
 .btn {
@@ -38,15 +37,19 @@ footer {
 	height: 50px;
 	}
 	
-.navbar {
-	border: none;
-	width: 100%;
-	height: 15%;
-	background-color: #ff3333;
-	}
+#navbar {
+	background-color: #060606;
+}
+
+a {
+	color: #A1AA98;
+}
+a:hover {
+	color: yellow;
+}
 
 #second-page {
-	background:radial-gradient(black 0px, transparent 2px),radial-gradient(black 0px, transparent 2px),linear-gradient(#fff 3px, transparent 0),#fff;
+	background:radial-gradient(yellow 0px, transparent 2px),radial-gradient(yellow 0px, transparent 2px),linear-gradient(black 3px, transparent 0),black;
     background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 	width: 100%;
@@ -55,15 +58,16 @@ footer {
 	}
 	
 #main-page {
-	background:radial-gradient(black 0px, transparent 2px),radial-gradient(black 0px, transparent 2px),linear-gradient(#fff 3px, transparent 0),#fff;
+	background:radial-gradient(yellow 0px, transparent 2px),radial-gradient(yellow 0px, transparent 2px),linear-gradient(black 3px, transparent 0),black;
     background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 	width: 100%;
-	height: 600px;
+	height: 400px;
+
 	}
 
-#icon {
-	color: white;
+p {
+	color: #ADB0AA ;
 	}
 	
 #icon-section {
@@ -71,9 +75,9 @@ footer {
 	}
 
 #stopka {
-  background-color: #f23729;
+  background-color: yellow;
   border: 1px;
-  color: white;
+  color: black;
   font-size: 11px;
   border-radius: 10px;
   font-family: 'Baloo Thambi 2', cursive;
@@ -99,11 +103,11 @@ input,select {
 #zegarek {
 	margin-left: auto;
     margin-right: auto;
-	font-size:100px;
-	color: black;
+	font-size:60px;
+	color: yellow;
 	text-align: center;
-	background-color: white;
-	border: 2px solid #f52211;
+	background-color: black;
+	border: 2px solid grey;
 	border-radius: 80%;
 	padding: 20px;
 	width: 400px;
@@ -111,7 +115,7 @@ input,select {
 }
 
 #gal {
-	background-color: #ff6666;
+	background-color: #0A0A0A;
 	color: white;
 }
 
